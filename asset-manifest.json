@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.cc4d0c72.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e91f8bb0.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e91f8bb0.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e03c2c79.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e03c2c79.js.map",
+    "static/js/2.af09e3f4.chunk.js": "/Portfolio/static/js/2.af09e3f4.chunk.js",
+    "static/js/2.af09e3f4.chunk.js.map": "/Portfolio/static/js/2.af09e3f4.chunk.js.map",
+    "static/js/3.6b1a2d57.chunk.js": "/Portfolio/static/js/3.6b1a2d57.chunk.js",
+    "static/js/3.6b1a2d57.chunk.js.map": "/Portfolio/static/js/3.6b1a2d57.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.cc4d0c72.chunk.css.map": "/Portfolio/static/css/main.cc4d0c72.chunk.css.map",
+    "static/js/2.af09e3f4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.af09e3f4.chunk.js.LICENSE.txt",
+    "static/media/projects-header.css": "/Portfolio/static/media/business-team-meeting-project-planning-concept-66696000.a756f89d.jpg",
+    "static/media/logo.6ce24c58.svg": "/Portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/Header.css": "/Portfolio/static/media/professional-programmer-working-late-dark-office.0cbec54f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e03c2c79.js",
+    "static/js/2.af09e3f4.chunk.js",
+    "static/css/main.cc4d0c72.chunk.css",
+    "static/js/main.e91f8bb0.chunk.js"
+  ]
+}
