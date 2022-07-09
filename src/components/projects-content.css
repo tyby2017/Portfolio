@@ -1,0 +1,44 @@
+.pc-container {
+    width:50%;
+    margin: 0 auto;
+    padding:30px;
+}
+
+.item-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-container h2 {
+    text-decoration: underline;
+}
+
+.pc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.pc .pc-item {
+    flex-basis: 30%;
+}
+.pc-item img {
+    max-width:100%;
+    transition:.5s;
+}
+
+.pc-item img:hover {
+    transform:scale(1.1);
+}
+
+.pc-item .image-container{
+    overflow:hidden;
+}
+
+.pc-item a {
+    text-decoration: none;
+    color:black;
+}
+

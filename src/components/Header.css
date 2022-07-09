@@ -1,0 +1,90 @@
+.header {
+    height:365px;
+    width:100%;
+    background-position-y:center;
+    background-size: cover;
+}
+
+.header h1 {
+    color:white;
+    font-weight: lighter;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-and-navbar {
+    padding:15px;
+    width:60%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color:rgb(212, 211, 211);
+    padding:0 15px;
+    font-size: large;
+}
+
+.header .nav-bar > a:focus, a:hover {
+    color:white;
+}
+
+.welcome-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    top:80px;
+}
+
+.nav-icon {
+    display: none;
+}
+
+@media (max-width:960px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        width:100px;
+        height:100px;
+        position:absolute;
+        top: 100px;
+        left:-110px;
+        z-index:1;
+    }
+
+    .nav-bar.active {
+        transition: all 0.5s ease;
+        left:0px;
+    }
+
+    .nav-bar a {
+        padding:10px;
+    }
+
+    .nav-icon {
+        color:white;
+        display: block;
+        padding-top:10px;
+        cursor: pointer;
+    }
+    
+    .welcome {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:420px) {
+    .welcome {
+      width:100px;      
+    }
+}

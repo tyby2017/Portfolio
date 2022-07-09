@@ -1,0 +1,21 @@
+.contact-container img {
+    width:50px;
+}
+
+.contact-container {
+    width:50%;
+    margin: 0 auto;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.contact-container a {
+    padding: 0 10px;
+}
+
+.icons {
+    display:flex;    
+}

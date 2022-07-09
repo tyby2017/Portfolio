@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    background-position-y: bottom;
+    background-size:cover;
+    height:70px;
+    margin-top: auto;
+}
+
+.overlay-footer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-bar-footer {
+    margin:0 auto;
+    width:60%;
+    padding-right: 15px;
+    position: relative;
+    top:20px;
+    display:flex;
+    justify-content:center;
+}
+
+.nav-bar-footer a {
+    text-decoration: none;
+    font-size: large;
+    color:rgb(212, 211, 211);
+    margin:5px;
+}
+
+.nav-bar-footer a:hover, a:focus {
+    color:white;
+}
+@media (max-width:400px){
+    .nav-bar-footer a{
+        font-size: small;
+    }
+}

@@ -1,25 +1,41 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './pages/Homepage';
+import React from "react";
+import {
+  HashRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Projects from './pages/Projects';
+import AboutMyself from './pages/AboutMyself';
+import HireMe from './pages/HireMe';
+import Contact from './pages/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+  return  <Router>    
+          <Switch>
+
+          <Route exact path="/">
+              <Homepage />
+            </Route>
+
+            <Route exact path="/portfolio">
+              <Projects />
+            </Route>
+
+            <Route exact path="/about">
+              <AboutMyself />
+            </Route>
+
+            <Route exact path="/hire-me">
+              <HireMe />
+            </Route>
+
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+
+          </Switch>
+  </Router>
 }
-
-export default App;
